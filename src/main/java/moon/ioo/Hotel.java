@@ -28,7 +28,7 @@ public class Hotel {
         rating--;
     }
 
-    public void aboutHotel() {
+    public void printHotelInformation() {
         System.out.println("Название отеля: " + name);
         System.out.println("Описание отеля: " + description);
         System.out.println("Свободных номеров: " + free_rooms);
@@ -37,6 +37,3 @@ public class Hotel {
         System.out.println();
     }
 }
-
-
-

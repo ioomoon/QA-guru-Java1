@@ -1,6 +1,7 @@
 package moon.ioo;
 
 
+import java.sql.SQLOutput;
 
 public class TypeHotel {
     public static void main(String[] args){
@@ -13,7 +14,7 @@ public class TypeHotel {
         cosmos.increaseRating();
         cosmos.increaseRating();
         cosmos.downgradeRating();
-        cosmos.aboutHotel();
+        cosmos.printHotelInformation();
 
         Hotel moscow = new Hotel();
         moscow.name = "Москва";
@@ -23,7 +24,7 @@ public class TypeHotel {
         moscow.unbooking();
         moscow.increaseRating();
         moscow.increaseRating();
-        moscow.aboutHotel();
+        moscow.printHotelInformation();
     }
 
 }
